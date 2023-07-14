@@ -1,0 +1,19 @@
+h1 {
+  font-size: x-large;
+}
+
+p {
+  color: rosybrown;
+}
+
+#abc {
+  background-color: darkslateblue;
+}
+
+.paraClass {
+  background-color: black;
+}
+
+p,article {
+  text-align: center;
+}
