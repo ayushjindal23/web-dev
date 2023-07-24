@@ -1,1 +1,28 @@
+.container {
+    position: relative;
+    height: 3000px;
+    background-color: brown;
+    border: 1px solid black;
+}
 
+img {
+    margin: 10px;
+}
+
+.image2 {
+    position: relative;
+    /* top: 100px; */
+    /* left: 100px;; */
+    /* position: absolute; */
+    position: sticky;
+    top: 10px;
+}
+
+.image3 {
+    position: fixed;
+}
+
+.container2 {
+    background-color: beige;
+    height: 2000px;
+}
