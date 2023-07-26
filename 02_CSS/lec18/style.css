@@ -1,28 +1,28 @@
-.container {
-    position: relative;
-    height: 3000px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .box{
+    background-color: aqua;
+    border: 2px solid red;
+    width: 25%;
+} */
+
+/* .parent {
+    background-color: black;
+    border: 2px solid grey;
+}
+
+.child {
     background-color: brown;
-    border: 1px solid black;
-}
+    border: 2px solid yellow;
+    width: 20%;
+} */
 
-img {
-    margin: 10px;
-}
-
-.image2 {
-    position: relative;
-    /* top: 100px; */
-    /* left: 100px;; */
-    /* position: absolute; */
-    position: sticky;
-    top: 10px;
-}
-
-.image3 {
-    position: fixed;
-}
-
-.container2 {
-    background-color: beige;
-    height: 2000px;
+.container {
+    background-color: tan;
+    border: 2px solid black;
+    width: 50vw;
+    height: 100vh;
 }
