@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>lec9</title>
+    <title>lec16</title>
 </head>
 
-<body class="bg-gray-400 flex h-screen justify-center  items-center p-6 ">
+<body class=" flex h-screen justify-center flex-col items-center ">
 
-    <div class=" select-all shadow-inner bg-blue-700 text-blue-200 w-40 h-40 flex justify-center items-center">Lorem dolor sit amet.</div>
-    <span class="sr-only sm:not-sr-only">Lorem ipsum dolor sit amet.</span>
+    <label class="font-semibold text-sm select-none" for="fname">Full Name</label>
+
+    <input
+        class="px-2 py-3 m-2  rounded-lg text=blue-300 border-2 border-gray-400 placeholder-indigo-300 focus:bg-blue-100"
+        type="text" id="fname" name="fname" placeholder="Enter your full name">
+
+    <button class="w-14 h-14 p-2 rounded-lg border bg-blue-800 text-white">Save</button>
 
 
 </body>
