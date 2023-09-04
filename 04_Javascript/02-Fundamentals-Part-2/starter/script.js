@@ -26,7 +26,7 @@
 
 
 
-// Function declaration
+// // Function declaration
 // function calcAge1(birthYeah) {
 //     return 2037 - birthYeah;
 // }
@@ -64,7 +64,7 @@
 
 
 
-// array methods
+// //array methods
 // friends.push('aisia');  //to the end
 // console.log(friends);
 
@@ -118,51 +118,51 @@
 
 
 
-// Object Methods
+//Object Methods
 
-// const jonas = {
-//     firstName: 'Jonas',
-//     lastName: 'Schmedtmann',
-//     birthYeah: 1991,
-//     job: 'teacher',
-//     friends: ['Michael', 'Peter', 'Steven'],
-//     hasDriversLicense: true,
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtmann',
+    birthYeah: 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriversLicense: true,
 
-    // calAge1: function (birthYeah) {
-    //     return 2037 - birthYeah;
-    // }
+    calAge1: function (birthYeah) {
+        return 2037 - birthYeah;
+    }
     
 
-    // calAge2: function () {
-    //     console.log(this);
-    //     return 2037 - this.birthYeah;
-    // }
+    calAge2: function () {
+        console.log(this);
+        return 2037 - this.birthYeah;
+    }
 
-//     calAge: function () {
-//         //creating a new property 'age'
-//         this.age = 2037 - this.birthYeah;
-//         return this.age;
-//     },
+    calAge: function () {
+        //creating a new property 'age'
+        this.age = 2037 - this.birthYeah;
+        return this.age;
+    },
 
-// };
+};
 
-// console.log(jonas.calAge1(1991));
-// console.log(jonas['calAge1'](1991));
+console.log(jonas.calAge1(1991));
+console.log(jonas['calAge1'](1991));
 
-// console.log(jonas.calAge2());
-
-
-// console.log(jonas.calAge());
-
-// console.log(jonas.age);
-// console.log(jonas.age);
-// console.log(jonas.age);
+console.log(jonas.calAge2());
 
 
+console.log(jonas.calAge());
+
+console.log(jonas.age);
+console.log(jonas.age);
+console.log(jonas.age);
 
 
 
-//FOR LOOP
+
+
+// //FOR LOOP
 
 // for(let rep =0;rep<=10; rep++){
 
