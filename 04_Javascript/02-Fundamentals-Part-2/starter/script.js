@@ -138,19 +138,19 @@
 
 //     calAge1: function (birthYeah) {
 //         return 2037 - birthYeah;
-//     }
+//     },
     
 
 //     calAge2: function () {
 //         console.log(this);
 //         return 2037 - this.birthYeah;
-//     }
+//     },
 
-//     calAge: function () {
+//     calAge3: function () {
 //         //creating a new property 'age'
 //         this.age = 2037 - this.birthYeah;
 //         return this.age;
-//     },
+//     }
 
 // };
 
@@ -160,11 +160,8 @@
 // console.log(jonas.calAge2());
 
 
-// console.log(jonas.calAge());
+// console.log(jonas.calAge3());
 
-// console.log(jonas.age);
-// console.log(jonas.age);
-// console.log(jonas.age);
 
 
 
