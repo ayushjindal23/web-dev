@@ -26,6 +26,7 @@
 
 
 
+
 // // Function declaration
 // function calcAge1(birthYeah) {
 //     return 2037 - birthYeah;
@@ -49,15 +50,17 @@
 
 
 
+
+
 // //arrays
 // const friends = ['ayush', 'rohit', 'garg'];
 // console.log(friends);
-
 
 // //another way of initializing array
 // const years = new Array(1, 2, 3, '4');
 // console.log(typeof years);
 // console.log(years[3]);
+
 
 
 
@@ -85,6 +88,8 @@
 // console.log(friends.includes('garg'));
 // friends.push('23');
 // console.log(friends.includes(23));
+
+
 
 
 
@@ -118,45 +123,49 @@
 
 
 
-//Object Methods
 
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    birthYeah: 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven'],
-    hasDriversLicense: true,
 
-    calAge1: function (birthYeah) {
-        return 2037 - birthYeah;
-    }
+
+// //Object Methods
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYeah: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+
+//     calAge1: function (birthYeah) {
+//         return 2037 - birthYeah;
+//     }
     
 
-    calAge2: function () {
-        console.log(this);
-        return 2037 - this.birthYeah;
-    }
+//     calAge2: function () {
+//         console.log(this);
+//         return 2037 - this.birthYeah;
+//     }
 
-    calAge: function () {
-        //creating a new property 'age'
-        this.age = 2037 - this.birthYeah;
-        return this.age;
-    },
+//     calAge: function () {
+//         //creating a new property 'age'
+//         this.age = 2037 - this.birthYeah;
+//         return this.age;
+//     },
 
-};
+// };
 
-console.log(jonas.calAge1(1991));
-console.log(jonas['calAge1'](1991));
+// console.log(jonas.calAge1(1991));
+// console.log(jonas['calAge1'](1991));
 
-console.log(jonas.calAge2());
+// console.log(jonas.calAge2());
 
 
-console.log(jonas.calAge());
+// console.log(jonas.calAge());
 
-console.log(jonas.age);
-console.log(jonas.age);
-console.log(jonas.age);
+// console.log(jonas.age);
+// console.log(jonas.age);
+// console.log(jonas.age);
+
 
 
 
